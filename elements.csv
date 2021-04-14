@@ -1,0 +1,118 @@
+1,Hydrogen,H,1,1,Nonmetals,1
+2,Helium,He,18,1,Noble gases,4
+3,Lithium,Li,1,2,Alkali metals,7
+4,Beryllium,Be,2,2,Alkaline earth metals,9
+5,Boron,B,13,2,Metalloids,11
+6,Carbon,C,14,2,Nonmetals,12
+7,Nitrogen,N,15,2,Nonmetals,14
+8,Oxygen,O,16,2,Nonmetals,16
+9,Fluorine,F,17,2,Halogens,19
+10,Neon,Ne,18,2,Noble gases,20
+11,Sodium,Na,1,3,Alkali metals,23
+12,Magnesium,Mg,2,3,Alkaline earth metals,24
+13,Aluminum,Al,13,3,Poor metals,27
+14,Silicon,Si,14,3,Metalloids,28
+15,Phosphorus,P,15,3,Nonmetals,31
+16,Sulfur,S,16,3,Nonmetals,32
+17,Chlorine,Cl,17,3,Halogens,35
+18,Argon,Ar,18,3,Noble gases,40
+19,Potassium,K,1,4,Alkali metals,39
+20,Calcium,Ca,2,4,Alkaline earth metals,40
+21,Scandium,Sc,3,4,Transition metals,45
+22,Titanium,Ti,4,4,Transition metals,48
+23,Vanadium,V,5,4,Transition metals,51
+24,Chromium,Cr,6,4,Transition metals,52
+25,Manganese,Mn,7,4,Transition metals,55
+26,Iron,Fe,8,4,Transition metals,56
+27,Cobalt,Co,9,4,Transition metals,59
+28,Nickel,Ni,10,4,Transition metals,58
+29,Copper,Cu,11,4,Transition metals,63
+30,Zinc,Zn,12,4,Transition metals,64
+31,Gallium,Ga,13,4,Poor metals,69
+32,Germanium,Ge,14,4,Metalloids,74
+33,Arsenic,As,15,4,Metalloids,75
+34,Selenium,Se,16,4,Nonmetals,80
+35,Bromine,Br,17,4,Halogens,79
+36,Krypton,Kr,18,4,Noble gases,84
+37,Rubidium,Rb,1,5,Alkali metals,85
+38,Strontium,Sr,2,5,Alkaline earth metals,88
+39,Yttrium,Y,3,5,Transition metals,89
+40,Zirconium,Zr,4,5,Transition metals,90
+41,Niobium,Nb,5,5,Transition metals,93
+42,Molybdenum,Mo,6,5,Transition metals,98
+43,Technetium,Tc,7,5,Transition metals,98
+44,Ruthenium,Ru,8,5,Transition metals,102
+45,Rhodium,Rh,9,5,Transition metals,103
+46,Palladium,Pd,10,5,Transition metals,106
+47,Silver,Ag,11,5,Transition metals,107
+48,Cadmium,Cd,12,5,Transition metals,114
+49,Indium,In,13,5,Poor metals,115
+50,Tin,Sn,14,5,Poor metals,120
+51,Antimony,Sb,15,5,Metalloids,121
+52,Tellurium,Te,16,5,Metalloids,130
+53,Iodine,I,17,5,Halogens,127
+54,Xenon,Xe,18,5,Noble gases,132
+55,Cesium,Cs,1,6,Alkali metals,133
+56,Barium,Ba,2,6,Alkaline earth metals,138
+57,Lanthanum,La,3,6,Lanthanides,139
+58,Cerium,Ce,3,6,Lanthanides,140
+59,Praseodymium,Pr,3,6,Lanthanides,141
+60,Neodymium,Nd,3,6,Lanthanides,142
+61,Promethium,Pm,3,6,Lanthanides,145
+62,Samarium,Sm,3,6,Lanthanides,152
+63,Europium,Eu,3,6,Lanthanides,153
+64,Gadolinium,Gd,3,6,Lanthanides,158
+65,Terbium,Tb,3,6,Lanthanides,159
+66,Dysprosium,Dy,3,6,Lanthanides,164
+67,Holmium,Ho,3,6,Lanthanides,165
+68,Erbium,Er,3,6,Lanthanides,166
+69,Thulium,Tm,3,6,Lanthanides,169
+70,Ytterbium,Yb,3,6,Lanthanides,174
+71,Lutetium,Lu,3,6,Transition metals,175
+72,Hafnium,Hf,4,6,Transition metals,180
+73,Tantalum,Ta,5,6,Transition metals,181
+74,Tungsten,W,6,6,Transition metals,184
+75,Rhenium,Re,7,6,Transition metals,187
+76,Osmium,Os,8,6,Transition metals,192
+77,Iridium,Ir,9,6,Transition metals,193
+78,Platinum,Pt,10,6,Transition metals,195
+79,Gold,Au,11,6,Transition metals,197
+80,Mercury,Hg,12,6,Transition metals,202
+81,Thallium,Tl,13,6,Poor metals,205
+82,Lead,Pb,14,6,Poor metals,208
+83,Bismuth,Bi,15,6,Poor metals,209
+84,Polonium,Po,16,6,Metalloids,208
+85,Astatine,At,17,6,Halogens,210
+86,Radon,Rn,18,6,Noble gases,210
+87,Francium,Fr,1,7,Alkali metals,212
+88,Radium,Ra,2,7,Alkaline earth metals,226
+89,Actinium,Ac,3,7,Actinides,225
+90,Thorium,Th,3,7,Actinides,232
+91,Protactinium,Pa,3,7,Actinides,231
+92,Uranium,U,3,7,Actinides,238
+93,Neptunium,Np,3,7,Actinides,236
+94,Plutonium,Pu,3,7,Actinides,238
+95,Americium,Am,3,7,Actinides,241
+96,Curium,Cm,3,7,Actinides,243
+97,Berkelium,Bk,3,7,Actinides,247
+98,Californium,Cf,3,7,Actinides,249
+99,Einsteinium,Es,3,7,Actinides,252
+100,Fermium,Fm,3,7,Actinides,253
+101,Mendelevium,Md,3,7,Actinides,258
+102,Nobelium,No,3,7,Actinides,255
+103,Lawrencium,Lr,3,7,Transition metals,261
+104,Rutherfordium,Rf,4,7,Transition metals,265
+105,Dubnium,Db,5,7,Transition metals,268
+106,Seaborgium,Sg,6,7,Transition metals,269
+107,Bohrium,Bh,7,7,Transition metals,270
+108,Hassium,Hs,8,7,Transition metals,269
+109,Meitnerium,Mt,9,7,Transition metals,276
+110,Darmstadtium,Ds,10,7,Transition metals,280
+111,Roentgenium,Rg,11,7,Transition metals,281
+112,Copernicium,Cn,12,7,Transition metals,283
+113,Nihonium,Nh,13,7,Poor metals,285
+114,Flerovium,Fl,14,7,Poor metals,287
+115,Moscovium,Mc,15,7,Poor metals,288
+116,Livermorium,Lv,16,7,Poor metals,291
+117,Tennessine,Ts,17,7,Halogens,293
+118,Oganesson,Og,18,7,Noble gases,294

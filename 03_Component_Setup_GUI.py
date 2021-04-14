@@ -1,4 +1,4 @@
-# Copied tkinter template
+# Copied component 1
 
 from tkinter import *
 from functools import partial  # To prevent unwanted windows
@@ -56,6 +56,11 @@ class Setup:
         self.setup_frame = Frame(self.setup_box, padx=50, pady=5)
         self.setup_frame.grid()
 
+        # Stored variables
+
+        self.answer_option = ""
+        self.given_option = ""
+
         # header text
 
         self.setup_text = Label(self.setup_frame, text="Setup", font=("Arial", "16", "bold"))
@@ -77,34 +82,80 @@ class Setup:
 
         # row 1
 
-        self.atomic_number_button = Button(self.answer_frame, text="Atomic\nNumber", width=10, height=2)
+        self.atomic_number_button = Button(self.answer_frame, text="Atomic\nNumber", width=10, height=2,
+                                          command=lambda: self.update_numbers(self.atomic_number_button, "top"))
         self.atomic_number_button.grid(row=0, column=0, padx=5, pady=5)
 
-        self.mass_number_button = Button(self.answer_frame, text="Mass\nNumber", width=10, height=2)
+        self.mass_number_button = Button(self.answer_frame, text="Mass\nNumber", width=10, height=2,
+                                          command=lambda: self.update_numbers(self.mass_number_button, "top"))
         self.mass_number_button.grid(row=0, column=1, padx=5, pady=5)
 
-        self.Name_button = Button(self.answer_frame, text="Name of\nElement", width=10, height=2)
-        self.Name_button.grid(row=0, column=2, padx=5, pady=5)
+        self.name_button = Button(self.answer_frame, text="Name of\nElement", width=10, height=2,
+                                          command=lambda: self.update_numbers(self.name_button, "top"))
+        self.name_button.grid(row=0, column=2, padx=5, pady=5)
 
         # row 2
 
-        self.symbol_button = Button(self.answer_frame, text="Element\nSymbol", width=10, height=2)
-        self.symbol_button.grid(row=2, column=0, padx=5, pady=5)
+        self.symbol_button = Button(self.answer_frame, text="Element\nSymbol", width=10, height=2,
+                                          command=lambda: self.update_numbers(self.symbol_button, "top"))
+        self.symbol_button.grid(row=1, column=0, padx=5, pady=5)
 
-        self.group_button = Button(self.answer_frame, text="Group", width=10, height=2)
-        self.group_button.grid(row=2, column=1, padx=5, pady=5)
+        self.group_button = Button(self.answer_frame, text="Group", width=10, height=2,
+                                          command=lambda: self.update_numbers(self.group_button, "top"))
+        self.group_button.grid(row=1, column=1, padx=5, pady=5)
 
-        self.period_button = Button(self.answer_frame, text="Period", width=10, height=2)
-        self.period_button.grid(row=2, column=2, padx=5, pady=5)
+        self.period_button = Button(self.answer_frame, text="Period", width=10, height=2,
+                                          command=lambda: self.update_numbers(self.period_button, "top"))
+        self.period_button.grid(row=1, column=2, padx=5, pady=5)
+
+        # top buttons label
+
+        self.top_label = Label(self.setup_frame, text="Please select what you would like to practice")
+        self.top_label.grid(row=3, pady=5)
+
+        # bottom buttons
+
+        # frame for given options
+
+        self.given_frame = Frame(self.setup_frame)
+        self.given_frame.grid(row=4, pady=5)
+
+        # Given buttons
+
+        # row 1
+
+        self.atomic_number_button_given = Button(self.given_frame, text="Atomic\nNumber", width=10, height=2,
+                                          command=lambda: self.update_numbers(self.atomic_number_button_given, "bot"))
+        self.atomic_number_button_given.grid(row=0, column=0, padx=5, pady=5)
+
+        self.mass_number_button_given = Button(self.given_frame, text="Mass\nNumber", width=10, height=2,
+                                          command=lambda: self.update_numbers(self.mass_number_button_given, "bot"))
+        self.mass_number_button_given.grid(row=0, column=1, padx=5, pady=5)
+
+        self.name_button_given = Button(self.given_frame, text="Name of\nElement", width=10, height=2,
+                                          command=lambda: self.update_numbers(self.name_button_given, "bot"))
+        self.name_button_given.grid(row=0, column=2, padx=5, pady=5)
+
+        # row 2
+
+        self.symbol_button_given = Button(self.given_frame, text="Element\nSymbol", width=10, height=2,
+                                          command=lambda: self.update_numbers(self.symbol_button_given, "bot"))
+        self.symbol_button_given.grid(row=1, column=1, padx=5, pady=5)
+
+        # bottom buttons label
+
+        self.bottom_label = Label(self.setup_frame, text="Please select what you would like to be given")
+        self.bottom_label.grid(row=5, pady=5)
 
         # frame for buttons
 
         self.play_quit_button_frame = Frame(self.setup_frame)
-        self.play_quit_button_frame.grid(row=4, pady=5)
+        self.play_quit_button_frame.grid(row=6, pady=5)
 
         # play button
 
-        self.play_button = Button(self.play_quit_button_frame, text="Play", command=lambda: self.open_play())
+        self.play_button = Button(self.play_quit_button_frame, text="Play", command=lambda: self.open_play(),
+                                  state=DISABLED)
         self.play_button.grid(row=0, column=0, padx=5)
 
         # quit button
@@ -116,13 +167,35 @@ class Setup:
         Play(self)
         self.setup_box.withdraw()
 
+    # update_numbers enables all buttons in category and then disables selected button,
+    # updates selected option variables
+
+    def update_numbers(self, option, category):
+        if category == "top":
+            self.symbol_button.configure(state=NORMAL)
+            self.atomic_number_button.configure(state=NORMAL)
+            self.mass_number_button.configure(state=NORMAL)
+            self.name_button.configure(state=NORMAL)
+            self.group_button.configure(state=NORMAL)
+            self.period_button.configure(state=NORMAL)
+            self.answer_option = option.cget('text').replace("\n", " ")
+        else:
+            self.symbol_button_given.configure(state=NORMAL)
+            self.atomic_number_button_given.configure(state=NORMAL)
+            self.mass_number_button_given.configure(state=NORMAL)
+            self.name_button_given.configure(state=NORMAL)
+            self.given_option = option.cget('text').replace("\n", " ")
+        if self.answer_option != "" and self.given_option != "":
+            self.play_button.configure(state=NORMAL)
+
+        option.config(state=DISABLED)
 
 
 class Play:
     def __init__(self, partner):
         print("Program played")
 
-        # set toplevel
+        # set Toplevel
 
         self.play_box = Toplevel()
 
@@ -140,10 +213,15 @@ class Play:
         self.play_text = Label(self.play_frame, text="Play")
         self.play_text.grid(row=0)
 
+        # body text
+
+        self.play_text = Label(self.play_frame, text="{},{}".format(partner.answer_option, partner.given_option))
+        self.play_text.grid(row=1)
+
         # frame for buttons
 
         self.help_stats_button_frame = Frame(self.play_frame)
-        self.help_stats_button_frame.grid(row=1, pady=5)
+        self.help_stats_button_frame.grid(row=2, pady=5)
 
         # help button
 
@@ -158,7 +236,7 @@ class Play:
         # quit button
 
         self.quit_button = Button(self.play_frame, text="Quit", command=partial(root.destroy))
-        self.quit_button.grid(row=2)
+        self.quit_button.grid(row=3)
 
 # main routine
 if __name__ == "__main__":
