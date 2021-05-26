@@ -224,7 +224,7 @@ class Export:
 
         # set up frame
 
-        self.export_frame = Frame(self.export_box, padx=50, pady=5)
+        self.export_frame = Frame(self.export_box, pady=5)
         self.export_frame.grid()
 
         # header text
@@ -232,26 +232,42 @@ class Export:
         self.export_text = Label(self.export_frame, text="Export", font=("Arial", "16", "bold"))
         self.export_text.grid(row=0)
 
-        # frame for buttons
+        # response label
 
-        self.warning_quit_button_frame = Frame(self.export_frame)
-        self.warning_quit_button_frame.grid(row=2)
+        self.response_text = Label(self.export_frame, text="Instructions here")
+        self.response_text.grid(row=1)
+
+        # frame for file name / export button
+
+        self.entry_export_button_frame = Frame(self.export_frame)
+        self.entry_export_button_frame.grid(row=2)
+
+        # file_name
+
+        self.file_name_entry = Entry(self.entry_export_button_frame, width=20,
+                                     font=("Arial", 14, "bold"))
+        self.file_name_entry.grid(row=0, column=0)
 
         # warning button
 
-        self.warning_button = Button(self.warning_quit_button_frame, text="Export",
-                                     command=lambda: self.open_warning())
-        self.warning_button.grid(row=1, column=0, padx=5)
+        self.export_button = Button(self.entry_export_button_frame, text="Export",
+                                    command=partial(self.warning))
+        self.export_button.grid(row=0, column=1)
 
-        # quit button
+        # response label
 
-        self.quit_button = Button(self.warning_quit_button_frame, text="Dismiss",
-                                  command=partial(self.dismiss, partner))
-        self.quit_button.grid(row=1, column=1, padx=5)
+        self.response_text = Label(self.export_frame, text="Response here")
+        self.response_text.grid(row=3)
 
-    def open_warning(self):
-        self.warning_button.configure(state=DISABLED)
+        # dismiss button
+
+        self.dismiss_button = Button(self.export_frame, text="Dismiss",
+                                     command=partial(self.dismiss, partner))
+        self.dismiss_button.grid(row=4, ipadx=110, ipady=10, padx=5)
+
+    def warning(self):
         Warning(self)
+        self.export_button.configure(state=NORMAL)
 
     def dismiss(self, partner):
         partner.export_button.configure(state=NORMAL)
