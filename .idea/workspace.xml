@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="08_Component_Stats_GUI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08_Component_Stats_GUI.py">
+      <file leaf-file-name="08_Component_Stats_GUI_V2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08_Component_Stats_GUI_V2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7412">
-              <caret line="471" column="69" selection-start-line="0" selection-start-column="0" selection-end-line="593" selection-end-column="19" />
+            <state relative-caret-position="7157">
+              <caret line="456" column="65" selection-start-line="456" selection-start-column="65" selection-end-line="456" selection-end-column="95" />
               <folding>
                 <element signature="e#159#1037#0" expanded="false" />
               </folding>
@@ -32,13 +32,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="08_Component_Stats_GUI_V2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/08_Component_Stats_GUI_V2.py">
+      <file leaf-file-name="01_Component_GUI_Skeleton.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01_Component_GUI_Skeleton.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="488" column="67" selection-start-line="488" selection-start-column="67" selection-end-line="488" selection-end-column="67" />
+            <state relative-caret-position="340">
+              <caret line="22" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="09_Component_Export_GUI.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/09_Component_Export_GUI.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="237" column="49" selection-start-line="237" selection-start-column="49" selection-end-line="237" selection-end-column="49" />
               <folding>
-                <element signature="e#159#1037#0" expanded="false" />
+                <element signature="e#6965#7782#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -69,16 +79,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2_0_leaderboard.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leaderboards/2_0_leaderboard.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -158,6 +158,7 @@
         <option value="$PROJECT_DIR$/Leaderboards/0_0_leaderboard.csv" />
         <option value="$PROJECT_DIR$/Leaderboards/0_6_leaderboard.csv" />
         <option value="$PROJECT_DIR$/08_Component_Stats_GUI_V2.py" />
+        <option value="$PROJECT_DIR$/09_Component_Export_GUI.py" />
       </list>
     </option>
   </component>
@@ -244,24 +245,7 @@
       <recent name="C:\Users\hsiaoy71950\OneDrive - Massey High School\Documents\GitHub\91906_Quiz_Game" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.08_Component_Stats_GUI_V2">
-    <configuration default="false" name="05_Component_Read_From_File" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="91906_Quiz_Game" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_Component_Read_From_File.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.09_Component_Export_GUI">
     <configuration default="false" name="06_Component_Functional_Game" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -326,6 +310,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="91906_Quiz_Game" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_Component_Stats_GUI_V2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="09_Component_Export_GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="91906_Quiz_Game" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09_Component_Export_GUI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -465,19 +466,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.05_Component_Read_From_File" />
-      <item index="1" class="java.lang.String" itemvalue="Python.06_Component_Functional_Game" />
-      <item index="2" class="java.lang.String" itemvalue="Python.07_Component_Help_GUI" />
-      <item index="3" class="java.lang.String" itemvalue="Python.08_Component_Stats_GUI" />
-      <item index="4" class="java.lang.String" itemvalue="Python.08_Component_Stats_GUI_V2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.06_Component_Functional_Game" />
+      <item index="1" class="java.lang.String" itemvalue="Python.07_Component_Help_GUI" />
+      <item index="2" class="java.lang.String" itemvalue="Python.08_Component_Stats_GUI" />
+      <item index="3" class="java.lang.String" itemvalue="Python.08_Component_Stats_GUI_V2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.09_Component_Export_GUI" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.08_Component_Stats_GUI_V2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.08_Component_Stats_GUI" />
-        <item index="2" class="java.lang.String" itemvalue="Python.07_Component_Help_GUI" />
-        <item index="3" class="java.lang.String" itemvalue="Python.06_Component_Functional_Game" />
-        <item index="4" class="java.lang.String" itemvalue="Python.05_Component_Read_From_File" />
+        <item index="0" class="java.lang.String" itemvalue="Python.09_Component_Export_GUI" />
+        <item index="1" class="java.lang.String" itemvalue="Python.08_Component_Stats_GUI_V2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.08_Component_Stats_GUI" />
+        <item index="3" class="java.lang.String" itemvalue="Python.07_Component_Help_GUI" />
+        <item index="4" class="java.lang.String" itemvalue="Python.06_Component_Functional_Game" />
       </list>
     </recent_temporary>
   </component>
@@ -499,25 +500,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.3255814" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="0" y="23" width="1920" height="1017" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.3255814" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="0" y="23" width="1920" height="1017" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -557,13 +558,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05_Component_Read_From_File.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -713,13 +707,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04_Play_GUI.py" />
-    <entry file="file://$PROJECT_DIR$/01_Component_GUI_Skeleton.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_Component_Setup_GUI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
@@ -794,9 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7412">
           <caret line="471" column="69" selection-start-line="0" selection-start-column="0" selection-end-line="593" selection-end-column="19" />
-          <folding>
-            <element signature="e#159#1037#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,7 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,12 +847,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01_Component_GUI_Skeleton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/08_Component_Stats_GUI_V2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="488" column="67" selection-start-line="488" selection-start-column="67" selection-end-line="488" selection-end-column="67" />
+        <state relative-caret-position="7157">
+          <caret line="456" column="65" selection-start-line="456" selection-start-column="65" selection-end-line="456" selection-end-column="95" />
           <folding>
             <element signature="e#159#1037#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09_Component_Export_GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="237" column="49" selection-start-line="237" selection-start-column="49" selection-end-line="237" selection-end-column="49" />
+          <folding>
+            <element signature="e#6965#7782#0" expanded="false" />
           </folding>
         </state>
       </provider>
