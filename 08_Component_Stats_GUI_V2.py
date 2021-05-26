@@ -215,6 +215,8 @@ class Play:
 
         self.rounds = 0
         self.score = 0
+        self.answer_column = partner.answer_column
+        self.given_column = partner.given_column
 
         # set toplevel
 
@@ -309,20 +311,21 @@ class Play:
 
     def update_option(self, partner):
 
-        # picks 4 random rows from list of csv
-
-        random_options = random.sample(self.element_data, 4)
-
         # uses loop to prevent repetition
 
         check_loop = ""
         while check_loop == "":
+
+            # picks 4 random rows from list of csv
+
+            random_options = random.sample(self.element_data, 4)
             check_list = []
             for x in random_options:
                 check_list.append(x[partner.answer_column])
-            if len(check_list) == 4:
+                print(check_list)
+            check_dict = dict.fromkeys(check_list)
+            if len(check_dict) == 4:
                 check_loop = 1
-
 
         # selects 1 of 4 rows to be correct
 
@@ -446,18 +449,53 @@ class Stats:
 
         # set up frame
 
-        self.stats_frame = Frame(self.stats_box, padx=50, pady=5)
+        self.stats_frame = Frame(self.stats_box, padx=5, pady=5)
         self.stats_frame.grid()
 
         # header text
 
-        self.stats_text = Label(self.stats_frame, text="Stats")
-        self.stats_text.grid(row=0)
+        self.stats_heading = Label(self.stats_frame, text="Stats", font=("Arial", "16", "bold"))
+        self.stats_heading.grid(row=0)
+
+        # space for text
+
+        csv_file = open("Leaderboards/{}_{}_leaderboard.csv".format(partner.given_column, partner.answer_column), "a",
+                        newline='')
+        writer = csv.writer(csv_file)
+        writer.writerow(["csv", 2])
+        csv_file.close()
+
+        csv_file = open("Leaderboards/{}_{}_leaderboard.csv".format(partner.given_column, partner.answer_column), "r")
+        leaderboard_text = ""
+        written = 0
+        for x in csv.reader(csv_file):
+            if int(x[1]) < partner.score and written == 0:
+                leaderboard_text += ("--- You: {}\n".format(partner.score))
+                leaderboard_text += ("{}: {}\n".format(x[0], x[1]))
+                written = 1
+            else:
+                leaderboard_text += ("{}: {}\n".format(x[0], x[1]))
+        if written == 0:
+            leaderboard_text += ("--- You: {}\n".format(partner.score))
+
+        csv_file.close()
+
+        self.stats_text = Label(self.stats_frame, text="Points: {}\n"
+                                                       "Questions answered correctly: {}\n"
+                                                       "Questions answered incorrectly: {}\n"
+                                                       "Total rounds played: {}\n"
+                                                       "\n"
+                                                       "Leaderboard:\n"
+                                                       "{}".format(partner.score, partner.score,
+                                                                   partner.rounds - partner.score,
+                                                                   partner.rounds, leaderboard_text),
+                                justify=LEFT,)
+        self.stats_text.grid(row=1)
 
         # frame for buttons
 
         self.export_quit_button_frame = Frame(self.stats_frame)
-        self.export_quit_button_frame.grid(row=1)
+        self.export_quit_button_frame.grid(row=2)
 
         # export button
 

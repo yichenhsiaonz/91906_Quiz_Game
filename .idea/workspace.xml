@@ -20,88 +20,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="01_Component_GUI_Skeleton.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_Component_GUI_Skeleton.py">
+      <file leaf-file-name="08_Component_Stats_GUI.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08_Component_Stats_GUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="7412">
+              <caret line="471" column="69" selection-start-line="0" selection-start-column="0" selection-end-line="593" selection-end-column="19" />
               <folding>
-                <element signature="e#27#48#0" expanded="true" />
+                <element signature="e#159#1037#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05_Component_Read_From_File.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_Component_Read_From_File.py">
+      <file leaf-file-name="08_Component_Stats_GUI_V2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/08_Component_Stats_GUI_V2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="578">
+              <caret line="488" column="67" selection-start-line="488" selection-start-column="67" selection-end-line="488" selection-end-column="67" />
+              <folding>
+                <element signature="e#159#1037#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0_0_leaderboard.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leaderboards/0_0_leaderboard.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+      <file leaf-file-name="1_0_leaderboard.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leaderboards/1_0_leaderboard.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="06_Component_Functional_Game.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/06_Component_Functional_Game.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="149" column="30" selection-start-line="149" selection-start-column="30" selection-end-line="149" selection-end-column="30" />
-              <folding>
-                <element signature="e#22#43#0" expanded="true" />
-                <element signature="e#149#1027#0" expanded="false" />
-                <element signature="e#12468#13244#0" expanded="false" />
-                <element signature="e#13264#14590#0" expanded="false" />
-                <element signature="e#14611#15963#0" expanded="false" />
-                <element signature="e#15985#16802#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02_Component_Start_GUI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_Component_Start_GUI.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="29" selection-end-column="50" />
-              <folding>
-                <element signature="e#42#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="04_Component_Play_GUI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04_Component_Play_GUI.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="353" column="34" selection-start-line="196" selection-start-column="0" selection-end-line="353" selection-end-column="34" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03_Component_Setup_GUI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03_Component_Setup_GUI.py">
+      <file leaf-file-name="0_6_leaderboard.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leaderboards/0_6_leaderboard.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="132" column="75" selection-start-line="0" selection-start-column="0" selection-end-line="245" selection-end-column="19" />
-              <folding>
-                <element signature="e#22#43#0" expanded="true" />
-                <element signature="e#138#1016#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2_0_leaderboard.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leaderboards/2_0_leaderboard.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2_1_leaderboard.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leaderboards/2_1_leaderboard.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2_4_leaderboard.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leaderboards/2_4_leaderboard.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6_0_leaderboard.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leaderboards/6_0_leaderboard.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,6 +147,17 @@
         <option value="$PROJECT_DIR$/05_Component_Read_From_File.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/06_Component_Functional_Game.py" />
+        <option value="$PROJECT_DIR$/07_Component_Help_GUI.py" />
+        <option value="$PROJECT_DIR$/Leaderboards/6_0_leaderboard.txt" />
+        <option value="$PROJECT_DIR$/pycharm.lnk" />
+        <option value="$PROJECT_DIR$/08_Component_Stats_GUI.py" />
+        <option value="$PROJECT_DIR$/Leaderboards/0_0_leaderboard.txt" />
+        <option value="$PROJECT_DIR$/Leaderboards/6_0_leaderboard.csv" />
+        <option value="$PROJECT_DIR$/Leaderboards/2_0_leaderboard.csv" />
+        <option value="$PROJECT_DIR$/Leaderboards/1_0_leaderboard.csv" />
+        <option value="$PROJECT_DIR$/Leaderboards/0_0_leaderboard.csv" />
+        <option value="$PROJECT_DIR$/Leaderboards/0_6_leaderboard.csv" />
+        <option value="$PROJECT_DIR$/08_Component_Stats_GUI_V2.py" />
       </list>
     </option>
   </component>
@@ -183,6 +212,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="91906_Quiz_Game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="91906_Quiz_Game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leaderboards" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -190,59 +233,18 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/hsiaoy71950/OneDrive - Massey High School/Documents/GitHub/91906_Quiz_Game/03_Component_Setup_GUI.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.05_Component_Read_From_File">
-    <configuration default="false" name="02_Component_Start_GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="91906_Quiz_Game" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Component_Start_GUI.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="03_Component_Setup_GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="91906_Quiz_Game" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Component_Setup_GUI.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="04_Play_GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="91906_Quiz_Game" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_Play_GUI.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hsiaoy71950\OneDrive - Massey High School\Documents\GitHub\91906_Quiz_Game\Leaderboards" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hsiaoy71950\OneDrive - Massey High School\Documents\GitHub\91906_Quiz_Game" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.08_Component_Stats_GUI_V2">
     <configuration default="false" name="05_Component_Read_From_File" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,6 +275,57 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="91906_Quiz_Game" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_Component_Functional_Game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="07_Component_Help_GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="91906_Quiz_Game" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_Component_Help_GUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="08_Component_Stats_GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="91906_Quiz_Game" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_Component_Stats_GUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="08_Component_Stats_GUI_V2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="91906_Quiz_Game" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_Component_Stats_GUI_V2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -412,19 +465,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.02_Component_Start_GUI" />
-      <item index="1" class="java.lang.String" itemvalue="Python.03_Component_Setup_GUI" />
-      <item index="2" class="java.lang.String" itemvalue="Python.04_Play_GUI" />
-      <item index="3" class="java.lang.String" itemvalue="Python.05_Component_Read_From_File" />
-      <item index="4" class="java.lang.String" itemvalue="Python.06_Component_Functional_Game" />
+      <item index="0" class="java.lang.String" itemvalue="Python.05_Component_Read_From_File" />
+      <item index="1" class="java.lang.String" itemvalue="Python.06_Component_Functional_Game" />
+      <item index="2" class="java.lang.String" itemvalue="Python.07_Component_Help_GUI" />
+      <item index="3" class="java.lang.String" itemvalue="Python.08_Component_Stats_GUI" />
+      <item index="4" class="java.lang.String" itemvalue="Python.08_Component_Stats_GUI_V2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.05_Component_Read_From_File" />
-        <item index="1" class="java.lang.String" itemvalue="Python.06_Component_Functional_Game" />
-        <item index="2" class="java.lang.String" itemvalue="Python.04_Play_GUI" />
-        <item index="3" class="java.lang.String" itemvalue="Python.03_Component_Setup_GUI" />
-        <item index="4" class="java.lang.String" itemvalue="Python.02_Component_Start_GUI" />
+        <item index="0" class="java.lang.String" itemvalue="Python.08_Component_Stats_GUI_V2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.08_Component_Stats_GUI" />
+        <item index="2" class="java.lang.String" itemvalue="Python.07_Component_Help_GUI" />
+        <item index="3" class="java.lang.String" itemvalue="Python.06_Component_Functional_Game" />
+        <item index="4" class="java.lang.String" itemvalue="Python.05_Component_Read_From_File" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +499,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -504,21 +557,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01_Component_GUI_Skeleton.py">
+    <entry file="file://$PROJECT_DIR$/05_Component_Read_From_File.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#48#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04_Play_GUI.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_Component_Functional_Game.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -526,9 +582,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="29" selection-end-column="50" />
-          <folding>
-            <element signature="e#42#63#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Component_Play_GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5967">
+          <caret line="353" column="34" selection-start-line="196" selection-start-column="0" selection-end-line="353" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_Component_Setup_GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="132" column="75" selection-start-line="0" selection-start-column="0" selection-end-line="245" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_Component_GUI_Skeleton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Play_GUI.py" />
+    <entry file="file://$PROJECT_DIR$/02_Component_Start_GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="29" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -536,10 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-          <folding>
-            <element signature="e#22#43#0" expanded="true" />
-            <element signature="e#138#1016#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -547,9 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,9 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="29" selection-end-column="50" />
-          <folding>
-            <element signature="e#42#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -567,10 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#43#0" expanded="true" />
-            <element signature="e#138#1016#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -585,9 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,9 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -619,9 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -636,9 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,50 +712,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/04_Play_GUI.py" />
     <entry file="file://$PROJECT_DIR$/01_Component_GUI_Skeleton.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_Play_GUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="197" column="0" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="289">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03_Component_Setup_GUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="132" column="75" selection-start-line="0" selection-start-column="0" selection-end-line="245" selection-end-column="19" />
-          <folding>
-            <element signature="e#22#43#0" expanded="true" />
-            <element signature="e#138#1016#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="969">
+          <caret line="88" column="100" selection-start-line="88" selection-start-column="100" selection-end-line="88" selection-end-column="100" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycharm.lnk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="92" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="791" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_Component_Functional_Game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="56" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="566" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_Component_Help_GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3383">
+          <caret line="201" column="28" selection-start-line="201" selection-start-column="28" selection-end-line="201" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leaderboards/6_3_leaderboard.txt" />
+    <entry file="file://$PROJECT_DIR$/Leaderboards/6_0_leaderboard.txt" />
+    <entry file="file://$PROJECT_DIR$/Leaderboards/2_1_leaderboard.txt" />
+    <entry file="file://$PROJECT_DIR$/Leaderboards/1_2_leaderboard.txt" />
+    <entry file="file://$PROJECT_DIR$/Leaderboards/1_0_leaderboard.txt" />
+    <entry file="file://$PROJECT_DIR$/Leaderboards/0_0_leaderboard.txt" />
+    <entry file="file://$PROJECT_DIR$/Leaderboards/1_2_leaderboard.csv" />
     <entry file="file://$PROJECT_DIR$/02_Component_Start_GUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="425">
           <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="29" selection-end-column="50" />
-          <folding>
-            <element signature="e#42#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04_Component_Play_GUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
+        <state relative-caret-position="884">
           <caret line="353" column="34" selection-start-line="196" selection-start-column="0" selection-end-line="353" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,31 +780,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/elements.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_Component_Stats_GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7412">
+          <caret line="471" column="69" selection-start-line="0" selection-start-column="0" selection-end-line="593" selection-end-column="19" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#159#1037#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06_Component_Functional_Game.py">
+    <entry file="file://$PROJECT_DIR$/Leaderboards/2_0_leaderboard.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="149" column="30" selection-start-line="149" selection-start-column="30" selection-end-line="149" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leaderboards/0_0_leaderboard.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leaderboards/0_6_leaderboard.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leaderboards/1_0_leaderboard.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leaderboards/2_1_leaderboard.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leaderboards/2_4_leaderboard.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leaderboards/6_0_leaderboard.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_Component_Stats_GUI_V2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="488" column="67" selection-start-line="488" selection-start-column="67" selection-end-line="488" selection-end-column="67" />
           <folding>
-            <element signature="e#22#43#0" expanded="true" />
-            <element signature="e#149#1027#0" expanded="false" />
-            <element signature="e#12468#13244#0" expanded="false" />
-            <element signature="e#13264#14590#0" expanded="false" />
-            <element signature="e#14611#15963#0" expanded="false" />
-            <element signature="e#15985#16802#0" expanded="false" />
+            <element signature="e#159#1037#0" expanded="false" />
           </folding>
         </state>
       </provider>
