@@ -319,6 +319,9 @@ class Play:
             # picks 4 random rows from list of csv
 
             random_options = random.sample(self.element_data, 4)
+
+            # adds all displayed answers to a list and checks taht all of them are unique
+
             check_list = []
             for x in random_options:
                 check_list.append(x[partner.answer_column])
