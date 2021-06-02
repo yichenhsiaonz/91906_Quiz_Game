@@ -327,6 +327,7 @@ class Play:
             if len(check_dict) == 4:
                 check_loop = 1
 
+
         # selects 1 of 4 rows to be correct
 
         self.correct_row = random.choice(random_options)

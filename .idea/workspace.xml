@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="08_Component_Stats_GUI_V2.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="08_Component_Stats_GUI_V2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/08_Component_Stats_GUI_V2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4845">
-              <caret line="320" column="64" selection-start-line="320" selection-start-column="64" selection-end-line="320" selection-end-column="64" />
+            <state relative-caret-position="153">
+              <caret line="328" column="0" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
               <folding>
                 <element signature="e#159#1037#0" expanded="false" />
               </folding>
@@ -42,34 +42,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="09_Component_Export_GUI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09_Component_Export_GUI.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4590">
-              <caret line="272" column="45" selection-start-line="272" selection-start-column="45" selection-end-line="272" selection-end-column="45" />
-              <folding>
-                <element signature="e#7464#8281#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="10_Component_Regex_String_Checker.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/10_Component_Regex_String_Checker.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="06_Component_Functional_Game.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06_Component_Functional_Game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5219">
-              <caret line="311" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="325" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="5253">
+              <caret line="313" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
+              <folding>
+                <marker date="1622155270000" expanded="true" signature="154:1037" ph="..." />
+                <marker date="1622155270000" expanded="true" signature="993:1037" ph="..." />
+                <marker date="1622155270000" expanded="true" signature="1052:7909" ph="..." />
+                <marker date="1622155270000" expanded="true" signature="1085:6601" ph="..." />
+                <marker date="1622155270000" expanded="true" signature="1822:1975" ph="&quot;...&quot;" />
+                <marker date="1622155270000" expanded="true" signature="2232:2265" ph="..." />
+                <marker date="1622155270000" expanded="true" signature="4117:4168" ph="..." />
+                <marker date="1622155270000" expanded="true" signature="4275:4307" ph="..." />
+                <marker date="1622155270000" expanded="true" signature="6627:6680" ph="..." />
+                <marker date="1622155270000" expanded="true" signature="6686:6809" ph="..." />
+                <marker date="1622155270000" expanded="true" signature="6875:7909" ph="..." />
+                <marker date="1622155270000" expanded="true" signature="6905:7365" ph="..." />
+                <marker date="1622155270000" expanded="true" signature="7379:7752" ph="..." />
+                <marker date="1622155270000" expanded="true" signature="7923:14826" ph="..." />
+                <marker date="1622155270000" expanded="true" signature="7956:11696" ph="..." />
+                <marker date="1622155270000" expanded="true" signature="8072:8152" ph="..." />
+                <marker date="1622155270000" expanded="true" signature="8802:8899" ph="&quot;...&quot;" />
+                <marker date="1622155270000" expanded="true" signature="9040:9251" ph="&quot;...&quot;" />
+                <marker date="1622155270000" expanded="true" signature="12205:12244" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,29 +75,34 @@
       <file leaf-file-name="08_Component_Stats_GUI.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/08_Component_Stats_GUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="331" column="0" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2_1_leaderboard.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leaderboards/2_1_leaderboard.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2_4_leaderboard.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leaderboards/2_4_leaderboard.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="5627">
+              <caret line="335" column="0" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+              <folding>
+                <marker date="1622155564000" expanded="false" signature="22:139" ph="import ..." />
+                <marker date="1622155564000" expanded="true" signature="154:1037" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="178:966" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="993:1037" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="1052:7909" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="1085:6601" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="1822:1975" ph="&quot;...&quot;" />
+                <marker date="1622155564000" expanded="true" signature="2232:2265" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="4117:4168" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="4275:4307" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="6627:6680" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="6686:6809" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="6875:7909" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="6905:7365" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="7379:7752" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="7923:12054" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="7956:11796" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="8072:8152" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="8902:8999" ph="&quot;...&quot;" />
+                <marker date="1622155564000" expanded="true" signature="9140:9351" ph="&quot;...&quot;" />
+                <marker date="1622155564000" expanded="true" signature="11835:12054" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="11935:12054" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="16522:18211" ph="..." />
+                <marker date="1622155564000" expanded="true" signature="16522:18432" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,16 +112,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="6_0_leaderboard.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leaderboards/6_0_leaderboard.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,17 +148,17 @@
         <option value="$PROJECT_DIR$/Leaderboards/1_0_leaderboard.csv" />
         <option value="$PROJECT_DIR$/Leaderboards/0_0_leaderboard.csv" />
         <option value="$PROJECT_DIR$/Leaderboards/0_6_leaderboard.csv" />
-        <option value="$PROJECT_DIR$/08_Component_Stats_GUI_V2.py" />
         <option value="$PROJECT_DIR$/09_Component_Export_GUI.py" />
         <option value="$PROJECT_DIR$/06_Component_Functional_Game.py" />
         <option value="$PROJECT_DIR$/08_Component_Stats_GUI.py" />
         <option value="$PROJECT_DIR$/10_Component_Regex_String_Checker.py" />
+        <option value="$PROJECT_DIR$/08_Component_Stats_GUI_V2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-60" />
-    <option name="y" value="203" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -194,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,6 +222,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,7 +239,7 @@
       <recent name="C:\Users\hsiaoy71950\OneDrive - Massey High School\Documents\GitHub\91906_Quiz_Game" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10_Component_Regex_String_Checker">
+  <component name="RunManager" selected="Python.08_Component_Stats_GUI_V2">
     <configuration default="false" name="06_Component_Functional_Game" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -475,10 +468,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.10_Component_Regex_String_Checker" />
-        <item index="1" class="java.lang.String" itemvalue="Python.06_Component_Functional_Game" />
-        <item index="2" class="java.lang.String" itemvalue="Python.09_Component_Export_GUI" />
-        <item index="3" class="java.lang.String" itemvalue="Python.08_Component_Stats_GUI_V2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.08_Component_Stats_GUI_V2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.10_Component_Regex_String_Checker" />
+        <item index="2" class="java.lang.String" itemvalue="Python.06_Component_Functional_Game" />
+        <item index="3" class="java.lang.String" itemvalue="Python.09_Component_Export_GUI" />
         <item index="4" class="java.lang.String" itemvalue="Python.08_Component_Stats_GUI" />
       </list>
     </recent_temporary>
@@ -500,8 +493,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-60" y="203" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -764,42 +757,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leaderboards/2_0_leaderboard.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leaderboards/0_0_leaderboard.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leaderboards/0_6_leaderboard.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leaderboards/1_0_leaderboard.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leaderboards/2_1_leaderboard.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Leaderboards/2_0_leaderboard.csv" />
+    <entry file="file://$PROJECT_DIR$/Leaderboards/0_0_leaderboard.csv" />
+    <entry file="file://$PROJECT_DIR$/Leaderboards/0_6_leaderboard.csv" />
+    <entry file="file://$PROJECT_DIR$/Leaderboards/1_0_leaderboard.csv" />
+    <entry file="file://$PROJECT_DIR$/Leaderboards/2_1_leaderboard.csv" />
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -808,22 +770,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leaderboards/2_4_leaderboard.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leaderboards/6_0_leaderboard.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Leaderboards/2_4_leaderboard.csv" />
+    <entry file="file://$PROJECT_DIR$/Leaderboards/6_0_leaderboard.csv" />
     <entry file="file://$PROJECT_DIR$/01_Component_GUI_Skeleton.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -832,28 +780,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09_Component_Export_GUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4590">
-          <caret line="272" column="45" selection-start-line="272" selection-start-column="45" selection-end-line="272" selection-end-column="45" />
-          <folding>
-            <element signature="e#7464#8281#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/09_Component_Export_GUI.py" />
     <entry file="file://$PROJECT_DIR$/06_Component_Functional_Game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5219">
-          <caret line="311" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="325" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="5253">
+          <caret line="313" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
+          <folding>
+            <marker date="1622155270000" expanded="true" signature="154:1037" ph="..." />
+            <marker date="1622155270000" expanded="true" signature="993:1037" ph="..." />
+            <marker date="1622155270000" expanded="true" signature="1052:7909" ph="..." />
+            <marker date="1622155270000" expanded="true" signature="1085:6601" ph="..." />
+            <marker date="1622155270000" expanded="true" signature="1822:1975" ph="&quot;...&quot;" />
+            <marker date="1622155270000" expanded="true" signature="2232:2265" ph="..." />
+            <marker date="1622155270000" expanded="true" signature="4117:4168" ph="..." />
+            <marker date="1622155270000" expanded="true" signature="4275:4307" ph="..." />
+            <marker date="1622155270000" expanded="true" signature="6627:6680" ph="..." />
+            <marker date="1622155270000" expanded="true" signature="6686:6809" ph="..." />
+            <marker date="1622155270000" expanded="true" signature="6875:7909" ph="..." />
+            <marker date="1622155270000" expanded="true" signature="6905:7365" ph="..." />
+            <marker date="1622155270000" expanded="true" signature="7379:7752" ph="..." />
+            <marker date="1622155270000" expanded="true" signature="7923:14826" ph="..." />
+            <marker date="1622155270000" expanded="true" signature="7956:11696" ph="..." />
+            <marker date="1622155270000" expanded="true" signature="8072:8152" ph="..." />
+            <marker date="1622155270000" expanded="true" signature="8802:8899" ph="&quot;...&quot;" />
+            <marker date="1622155270000" expanded="true" signature="9040:9251" ph="&quot;...&quot;" />
+            <marker date="1622155270000" expanded="true" signature="12205:12244" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/08_Component_Stats_GUI_V2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4845">
-          <caret line="320" column="64" selection-start-line="320" selection-start-column="64" selection-end-line="320" selection-end-column="64" />
+        <state relative-caret-position="153">
+          <caret line="328" column="0" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
           <folding>
             <element signature="e#159#1037#0" expanded="false" />
           </folding>
@@ -862,19 +821,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/08_Component_Stats_GUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="331" column="0" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="5627">
+          <caret line="335" column="0" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+          <folding>
+            <marker date="1622155564000" expanded="false" signature="22:139" ph="import ..." />
+            <marker date="1622155564000" expanded="true" signature="154:1037" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="178:966" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="993:1037" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="1052:7909" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="1085:6601" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="1822:1975" ph="&quot;...&quot;" />
+            <marker date="1622155564000" expanded="true" signature="2232:2265" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="4117:4168" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="4275:4307" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="6627:6680" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="6686:6809" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="6875:7909" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="6905:7365" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="7379:7752" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="7923:12054" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="7956:11796" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="8072:8152" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="8902:8999" ph="&quot;...&quot;" />
+            <marker date="1622155564000" expanded="true" signature="9140:9351" ph="&quot;...&quot;" />
+            <marker date="1622155564000" expanded="true" signature="11835:12054" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="11935:12054" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="16522:18211" ph="..." />
+            <marker date="1622155564000" expanded="true" signature="16522:18432" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10_Component_Regex_String_Checker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/10_Component_Regex_String_Checker.py" />
   </component>
 </project>
