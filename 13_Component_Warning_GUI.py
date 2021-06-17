@@ -477,11 +477,13 @@ class Stats:
 
         # space for text
 
-        csv_file = open("Leaderboards/{}_{}_leaderboard.csv".format(partner.given_column, partner.answer_column), "a",
+        self.leaderboard_file = "Leaderboards/{}_{}_leaderboard.csv".format(partner.given_column, partner.answer_column)
+
+        csv_file = open(self.leaderboard_file, "a",
                         newline='')
         csv_file.close()
 
-        csv_file = open("Leaderboards/{}_{}_leaderboard.csv".format(partner.given_column, partner.answer_column), "r")
+        csv_file = open(self.leaderboard_file, "r")
         self.leaderboard_list = []
         written = 0
 
@@ -566,6 +568,10 @@ class Export:
     def __init__(self, partner):
         print("Program exported")
 
+        # get leaderboard filename
+
+        self.leaderboard_file = partner.leaderboard_file
+
         # set Toplevel
 
         self.export_box = Toplevel()
@@ -637,45 +643,51 @@ class Export:
 
         # gets strings from inputs
 
-        file = self.file_name_entry.get()
-        user = self.user_name_entry.get()
+        self.file = self.file_name_entry.get()
+        self.user = self.user_name_entry.get()
+
+        # gets list of scores from leaderboard
+
+        self.leaderboard_list = partner.leaderboard_list
+
+        # replaces placeholder player score with real score and username
+
+        for x in range(len(self.leaderboard_list)):
+            if self.leaderboard_list[x] == "*":
+                self.current_score = [self.user, partner.score]
+                self.leaderboard_list[x] = self.current_score
+
+        # sorts list by score descending
+
+        self.leaderboard_list.sort(key=get_score, reverse=True)
 
         # checks for illegal characters in filename
 
-        print(regex_check(file))
+        self.response_text.config(text=(regex_check(self.file)))
 
-        if regex_check(file) == "No Error":
-
-            # gets list of scores from leaderboard
-
-            leaderboard_list = partner.leaderboard_list
+        if regex_check(self.file) == "No Error":
 
             # warns about existing file
 
-            if path.isfile("{}.txt".format(file)):
+            if path.isfile("{}.txt".format(self.file)):
                 OverwriteWarning(self)
 
             # if no exisiting file, create text file
 
             else:
-                txt_file = open("{}.txt".format(file), "a")
 
-                # replaces placeholder player score with real score and username
+                txt_file = open("{}.txt".format(self.file), "a")
 
-                for x in range(len(leaderboard_list)):
-                    if leaderboard_list[x] == "*":
-                        leaderboard_list[x] = [user, partner.score]
-
-                # sorts list by score descending
-
-                leaderboard_list.sort(key=get_score, reverse=True)
-
+                csv_file = open(self.leaderboard_file, "a", newline='')
+                csv_writer = csv.writer(csv_file)
+                csv_writer.writerow(self.current_score)
                 # writes scores to file
 
-                for x in leaderboard_list:
+                for x in self.leaderboard_list:
                     txt_file.write("{}: {}\n".format(x[0], x[1]))
 
                 txt_file.close()
+                csv_file.close()
 
     def dismiss(self, partner):
         partner.export_button.configure(state=NORMAL)
@@ -685,6 +697,10 @@ class Export:
 class OverwriteWarning:
     def __init__(self, partner):
         print("Program warninged")
+
+        # get leaderboard filename
+
+        self.leaderboard_file = partner.leaderboard_file
 
         # set Toplevel
 
@@ -701,13 +717,48 @@ class OverwriteWarning:
 
         # header text
 
-        self.warning_text = Label(self.warning_frame, text="Warning")
-        self.warning_text.grid(row=0)
+        self.warning_heading = Label(self.warning_frame, text="Overwrite Warning")
+        self.warning_heading.grid(row=0)
 
-        # dismiss button
+        # main text
 
-        self.quit_button = Button(self.warning_frame, text="Dismiss", command=partial(self.dismiss, partner))
-        self.quit_button.grid(row=1, padx=5)
+        self.warning_text = Label(self.warning_frame, text="The file '{}.txt' already exists."
+                                                           " Would you like to overwrite it?".format(partner.file))
+        self.warning_text.grid(row=1)
+
+        # Yes / No button frame
+
+        self.yes_no_frame = Frame(self.warning_frame)
+        self.yes_no_frame.grid(row=2)
+
+        # yes button
+
+        self.yes_button = Button(self.yes_no_frame, text="Yes", command=partial(self.export, partner))
+        self.yes_button.grid(column=0, row=0, padx=5)
+
+        # no button
+
+        self.no_button = Button(self.yes_no_frame, text="No", command=partial(self.dismiss, partner))
+        self.no_button.grid(column=1, row=0, padx=5)
+
+    def export(self, partner):
+        txt_file = open("{}.txt".format(partner.file), "w")
+
+        csv_file = open(self.leaderboard_file, "a", newline='')
+        csv_writer = csv.writer(csv_file)
+        csv_writer.writerow(partner.current_score)
+
+        # writes scores to file
+
+        # csv too
+
+        for x in partner.leaderboard_list:
+            txt_file.write("{}: {}\n".format(x[0], x[1]))
+
+        txt_file.close()
+        csv_file.close()
+
+        self.dismiss(partner)
 
     def dismiss(self, partner):
         partner.export_button.configure(state=NORMAL)
