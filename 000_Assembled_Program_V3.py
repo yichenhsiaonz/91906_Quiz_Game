@@ -835,8 +835,15 @@ class Export:
                 self.response_text.configure(text="Exported!")
 
     def dismiss(self, partner):
-        partner.export_button.configure(state=NORMAL)
-        self.export_box.destroy()
+
+        if partner.stats_box.winfo_exists():
+            # Put export button back to normal...
+            partner.export_button.config(state=NORMAL)
+            partner.quit_button.config(state=NORMAL)
+            self.export_box.destroy()
+        else:
+            # prevents errors if export box is closed first
+            self.export_box.destroy()
 
 
 class OverwriteWarning:
@@ -914,8 +921,15 @@ class OverwriteWarning:
         self.dismiss(partner)
 
     def dismiss(self, partner):
-        partner.export_button.configure(state=NORMAL)
-        self.warning_box.destroy()
+
+        if partner.export_box.winfo_exists():
+            # Put export button back to normal...
+            partner.export_button.config(state=NORMAL)
+            partner.dismiss_btn.config(state=NORMAL)
+            self.warning_box.destroy()
+        else:
+            # prevents errors if export box is closed first
+            self.warning_box.destroy()
 
 # main routine
 if __name__ == "__main__":
