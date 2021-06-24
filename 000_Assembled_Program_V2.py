@@ -1,4 +1,4 @@
-# Copied component 1
+# V2 consists of small tweaks to usability
 
 from tkinter import *
 from functools import partial  # To prevent unwanted windows
@@ -59,7 +59,7 @@ class Start:
         # setup button
 
         self.setup_button = Button(self.setup_quit_button_frame, text="Begin Setup",
-                                    pady=10, padx=100,command=lambda: self.open_setup())
+                                   pady=10, padx=100, command=lambda: self.open_setup())
         self.setup_button.grid(row=0, column=0, padx=5)
 
         # quit button
@@ -69,15 +69,15 @@ class Start:
         self.quit_button.grid(row=0, column=1, padx=5)
 
     def open_setup(self):
-        Setup(self)
+        Setup()
         root.withdraw()
 
 
 class Setup:
-    def __init__(self, partner):
+    def __init__(self):
         print("Program setuped")
 
-        #set toplevel
+        # set toplevel
 
         self.setup_box = Toplevel()
 
@@ -137,17 +137,17 @@ class Setup:
 
         self.atomic_number_button = Button(self.answer_frame, text="Atomic\nNumber", width=10, height=2,
                                            command=lambda: self.update_numbers(self.atomic_number_button, "top", 0,
-                                                                              self.atomic_number_button_given))
+                                                                               self.atomic_number_button_given))
         self.atomic_number_button.grid(row=0, column=0, padx=5, pady=5)
 
         self.mass_number_button = Button(self.answer_frame, text="Mass\nNumber", width=10, height=2,
                                          command=lambda: self.update_numbers(self.mass_number_button, "top", 6,
-                                                                              self.mass_number_button_given))
+                                                                             self.mass_number_button_given))
         self.mass_number_button.grid(row=0, column=1, padx=5, pady=5)
 
         self.name_button = Button(self.answer_frame, text="Name of\nElement", width=10, height=2,
                                   command=lambda: self.update_numbers(self.name_button, "top", 1,
-                                                                              self.name_button_given))
+                                                                      self.name_button_given))
         self.name_button.grid(row=0, column=2, padx=5, pady=5)
 
         # row 2
@@ -185,7 +185,7 @@ class Setup:
         # row 1
 
         self.atomic_number_button_given = Button(self.given_frame, text="Atomic\nNumber", width=10, height=2,
-                                               command=lambda: self.update_numbers(self.atomic_number_button_given,
+                                                 command=lambda: self.update_numbers(self.atomic_number_button_given,
                                                                                    "bot", 0, self.atomic_number_button))
         self.atomic_number_button_given.grid(row=0, column=0, padx=5, pady=5)
 
@@ -336,7 +336,7 @@ class Play:
         self.instruction_text = Label(self.play_frame, text="Select the correct answer to the question below...\n\n"
                                                             "The {} of the element with the {} below "
                                                             "is:".format(partner.answer_option.lower(),
-                                                                  partner.given_option.lower()))
+                                                                         partner.given_option.lower()))
         self.instruction_text.grid(row=2)
 
         # Given thing
@@ -422,7 +422,6 @@ class Play:
             if len(check_dict) == 4:
                 check_loop = 1
 
-
         # selects 1 of 4 rows to be correct
 
         self.correct_row = random.choice(random_options)
@@ -446,7 +445,7 @@ class Play:
             if x.cget("text") == self.correct_row[partner.answer_column]:
                 self.correct_option = x
 
-    def answer_chosen(self,chosen, partner):
+    def answer_chosen(self, chosen, partner):
 
         # checks if text on button matches that of the correct button
 
@@ -624,7 +623,7 @@ class Stats:
             if x == "*":
                 self.leaderboard_text += "**** You: {} ****\n".format(self.score)
 
-            #writes everything else
+            # writes everything else
 
             else:
                 self.leaderboard_text += "{}: {}\n".format(x[0], int(x[1]))
@@ -702,9 +701,9 @@ class Export:
 
         self.response_text = Label(self.export_frame, justify=LEFT, anchor="w",
                                    text="The leaderboard for the current combination\n"
-                                    "of questions / answers will be exported to a\n"
-                                    "text file in the same folder as the game.\n\n"
-                                    "Your score will also be saved")
+                                        "of questions / answers will be exported to a\n"
+                                        "text file in the same folder as the game.\n\n"
+                                        "Your score will also be saved")
         self.response_text.grid(row=1, sticky=W)
 
         # frame for file name / export button

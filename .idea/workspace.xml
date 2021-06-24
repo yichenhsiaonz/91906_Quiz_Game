@@ -19,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2_4_leaderboard.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leaderboards/2_4_leaderboard.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2_3_leaderboard.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Leaderboards/2_3_leaderboard.csv">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,15 +102,22 @@
       <file leaf-file-name="000_Assembled_Program_V3.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/000_Assembled_Program_V3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="643" column="64" selection-start-line="643" selection-start-column="64" selection-end-line="643" selection-end-column="64" />
+            <state relative-caret-position="408">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
               <folding>
-                <element signature="e#194#422#0" expanded="false" />
-                <element signature="e#447#471#0" expanded="false" />
-                <element signature="e#491#2505#0" expanded="false" />
-                <element signature="e#19192#20942#0" expanded="false" />
-                <element signature="e#25461#30198#0" expanded="false" />
+                <element signature="e#19230#20980#0" expanded="false" />
+                <element signature="e#25499#30236#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="000_Assembled_Program_V2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/000_Assembled_Program_V2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,7 +163,6 @@
         <option value="$PROJECT_DIR$/12_Component_Functional_Export_GUI.py" />
         <option value="$PROJECT_DIR$/13_Component_Warning_GUI.py" />
         <option value="$PROJECT_DIR$/000_Assembled_Program_V1.py" />
-        <option value="$PROJECT_DIR$/000_Assembled_Program_V2.py" />
         <option value="$PROJECT_DIR$/Leaderboards/6_1_leaderboard.csv" />
         <option value="$PROJECT_DIR$/Leaderboards/2_4_leaderboard.csv" />
         <option value="$PROJECT_DIR$/Leaderboards/2_1_leaderboard.csv" />
@@ -175,6 +171,7 @@
         <option value="$PROJECT_DIR$/Leaderboards/0_6_leaderboard.csv" />
         <option value="$PROJECT_DIR$/Leaderboards/6_0_leaderboard.csv" />
         <option value="$PROJECT_DIR$/000_Assembled_Program_V3.py" />
+        <option value="$PROJECT_DIR$/000_Assembled_Program_V2.py" />
       </list>
     </option>
   </component>
@@ -211,6 +208,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -245,7 +243,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,7 +259,7 @@
       <recent name="C:\Users\hsiaoy71950\OneDrive - Massey High School\Documents\GitHub\91906_Quiz_Game\Leaderboards" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.000_Assembled_Program_V3">
+  <component name="RunManager" selected="Python.000_Assembled_Program_V2">
     <configuration default="false" name="000_Assembled_Program_V1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -494,10 +491,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.000_Assembled_Program_V3" />
-        <item index="1" class="java.lang.String" itemvalue="Python.13_Component_Warning_GUI" />
-        <item index="2" class="java.lang.String" itemvalue="Python.12_Component_Functional_Export_GUI" />
-        <item index="3" class="java.lang.String" itemvalue="Python.000_Assembled_Program_V2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.000_Assembled_Program_V2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.000_Assembled_Program_V3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.13_Component_Warning_GUI" />
+        <item index="3" class="java.lang.String" itemvalue="Python.12_Component_Functional_Export_GUI" />
         <item index="4" class="java.lang.String" itemvalue="Python.000_Assembled_Program_V1" />
       </list>
     </recent_temporary>
@@ -528,7 +525,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.3255814" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="167" y="702" width="1355" height="295" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.3255814" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="168" y="380" width="1355" height="295" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -707,13 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/000_Assembled_Program_V2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="779" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="888" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/13_Component_Warning_GUI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -828,16 +818,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/000_Assembled_Program_V2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/000_Assembled_Program_V3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="643" column="64" selection-start-line="643" selection-start-column="64" selection-end-line="643" selection-end-column="64" />
+        <state relative-caret-position="408">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
           <folding>
-            <element signature="e#194#422#0" expanded="false" />
-            <element signature="e#447#471#0" expanded="false" />
-            <element signature="e#491#2505#0" expanded="false" />
-            <element signature="e#19192#20942#0" expanded="false" />
-            <element signature="e#25461#30198#0" expanded="false" />
+            <element signature="e#19230#20980#0" expanded="false" />
+            <element signature="e#25499#30236#0" expanded="false" />
           </folding>
         </state>
       </provider>

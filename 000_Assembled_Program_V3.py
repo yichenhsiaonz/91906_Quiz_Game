@@ -1,4 +1,4 @@
-# Copied component 1
+# V3 consists of changes to visual elements of the program
 
 from tkinter import *
 from functools import partial  # To prevent unwanted windows
