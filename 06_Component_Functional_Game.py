@@ -309,22 +309,9 @@ class Play:
 
     def update_option(self, partner):
 
-        # uses loop to prevent repeated answer options
+        # picks 4 random rows from list of csv
 
-        check_loop = ""
-        while check_loop == "":
-
-            # picks 4 random rows from list of csv
-
-            random_options = random.sample(self.element_data, 4)
-            check_list = []
-            for x in random_options:
-                check_list.append(x[partner.answer_column])
-                print(check_list)
-            check_dict = dict.fromkeys(check_list)
-            if len(check_dict) == 4:
-                check_loop = 1
-
+        random_options = random.sample(self.element_data, 4)
 
         # selects 1 of 4 rows to be correct
 

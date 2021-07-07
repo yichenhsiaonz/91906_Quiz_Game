@@ -10,12 +10,28 @@ from os import path
 
 def regex_check(file_name):
 
+    # findall and save variables
+
+    regex_search = re.compile("[.<>:\"/|?*\\\\\040]")
+
+    matched = regex_search.findall(file_name)
+
+    matched_string = ""
+
+    for x in matched:
+        matched_string += " {}".format(x)
+
     # checks to see if any illegal characters are present
 
-    if re.search("[.<>:\"/|?*\\\\\040]", file_name):
-        return "Invalid file name - illegal character(s)(. < > : \" / \\ | ? * )"
+    if matched_string != "":
 
-    # checks for blanbk file names
+        if matched_string.lstrip() == "": \
+            return "Invalid file name - no spaces"
+
+        else:
+            return "Invalid file name - illegal character(s)({})".format(matched_string.lstrip())
+
+    # checks for blank file names
 
     if file_name == "":
         return "Invalid file name - can't be blank"
@@ -30,7 +46,6 @@ def get_score(y):
 
 class Start:
     def __init__(self):
-        print("Program started")
 
         self.bgc = "Moccasin"
 
@@ -84,7 +99,6 @@ class Start:
 
 class Setup:
     def __init__(self, partner):
-        print("Program setuped")
 
         #set toplevel
 
@@ -302,7 +316,6 @@ class Setup:
 
 class Play:
     def __init__(self, partner):
-        print("Program played")
 
         self.bgc = "Moccasin"
 
@@ -437,7 +450,6 @@ class Play:
             check_list = []
             for x in random_options:
                 check_list.append(x[partner.answer_column])
-                print(check_list)
 
             # ends the loop by turning options into a dictionary and checking for identical entries to prevent
             # duplicates
@@ -528,7 +540,6 @@ class Play:
 
 class Help:
     def __init__(self, partner):
-        print("Program helped")
 
         self.bgc = "Moccasin"
 
@@ -579,7 +590,6 @@ class Help:
 
 class Stats:
     def __init__(self, partner):
-        print("Program statsed")
 
         self.bgc = "Moccasin"
 
@@ -707,7 +717,7 @@ class Stats:
 
 class Export:
     def __init__(self, partner):
-        print("Program exported")
+
         self.bgc = "Moccasin"
 
         # get leaderboard filename
@@ -794,6 +804,10 @@ class Export:
 
     def export(self, partner):
 
+        # resets box color
+
+        self.file_name_entry.config(bg="white")
+
         # gets strings from inputs
 
         self.file = self.file_name_entry.get()
@@ -823,9 +837,9 @@ class Export:
             # warns about existing file
 
             if path.isfile("{}.txt".format(self.file)):
-                OverwriteWarning(self)
+                OverwriteWarning(self, partner)
 
-            # if no exisiting file, create text file
+            # if no existing file, create text file
 
             else:
 
@@ -842,7 +856,12 @@ class Export:
                 txt_file.close()
                 csv_file.close()
 
-                self.response_text.configure(text="Exported!")
+                Success()
+
+                self.dismiss(partner)
+
+        else:
+            self.file_name_entry.config(bg="pink")
 
     def dismiss(self, partner):
 
@@ -857,8 +876,7 @@ class Export:
 
 
 class OverwriteWarning:
-    def __init__(self, partner):
-        print("Program warninged")
+    def __init__(self, partner, partner_2):
 
         self.bgc = "Moccasin"
 
@@ -876,7 +894,7 @@ class OverwriteWarning:
 
         # set up closing behaviour
 
-        self.warning_box.protocol('WM_DELETE_WINDOW', partial(self.dismiss, partner))
+        self.warning_box.protocol('WM_DELETE_WINDOW', partial(self.dismiss, partner, partner_2))
 
         # set up frame
 
@@ -902,17 +920,19 @@ class OverwriteWarning:
 
         # yes button
 
-        self.yes_button = Button(self.yes_no_frame, text="Yes", command=partial(self.export, partner), width=20,
+        self.yes_button = Button(self.yes_no_frame, text="Yes",
+                                 command=partial(self.export, partner, partner_2), width=20,
                                  height=2)
         self.yes_button.grid(column=0, row=0, padx=5)
 
         # no button
 
-        self.no_button = Button(self.yes_no_frame, text="No", command=partial(self.dismiss, partner), width=20,
-                                 height=2)
+        self.no_button = Button(self.yes_no_frame, text="No",
+                                command=partial(self.dismiss, partner, partner_2), width=20,
+                                height=2)
         self.no_button.grid(column=1, row=0, padx=5)
 
-    def export(self, partner):
+    def export(self, partner, partner_2):
         txt_file = open("{}.txt".format(partner.file), "w")
 
         csv_file = open(self.leaderboard_file, "w", newline='')
@@ -923,23 +943,61 @@ class OverwriteWarning:
             csv_writer.writerow(x)
             txt_file.write("{}: {}\n".format(x[0], x[1]))
 
-        partner.response_text.configure(text="Exported!")
-
         txt_file.close()
         csv_file.close()
 
-        self.dismiss(partner)
+        Success()
 
-    def dismiss(self, partner):
+        self.dismiss(partner, partner_2)
+
+    def dismiss(self, partner, partner_2):
 
         if partner.export_box.winfo_exists():
             # Put export button back to normal...
-            partner.export_button.config(state=NORMAL)
-            partner.dismiss_button.config(state=NORMAL)
+            partner.dismiss(partner_2)
             self.warning_box.destroy()
         else:
             # prevents errors if export box is closed first
             self.warning_box.destroy()
+
+
+class Success:
+    def __init__(self):
+
+        self.bgc = "Moccasin"
+
+        # set Toplevel
+
+        self.success_box = Toplevel()
+
+        # prevents resizing box
+
+        self.success_box.resizable(False, False)
+
+        # set up closing behaviour
+
+        self.success_box.protocol('WM_DELETE_WINDOW', partial(self.dismiss))
+
+        # set up frame
+
+        self.success_frame = Frame(self.success_box, padx=10, pady=5, bg=self.bgc)
+        self.success_frame.grid()
+
+        # header text
+
+        self.warning_heading = Label(self.success_frame, text="Successfully exported!", bg=self.bgc,
+                                     font=("Arial", "16", "bold"), pady=10)
+        self.warning_heading.grid(row=0)
+
+        # dismiss button
+
+        self.yes_button = Button(self.success_frame, text="Dismiss",
+                                 command=partial(self.dismiss), width=20,
+                                 height=2)
+        self.yes_button.grid(row=1, padx=5)
+
+    def dismiss(self):
+        self.success_box.destroy()
 
 # main routine
 if __name__ == "__main__":
